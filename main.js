@@ -14,12 +14,12 @@ tweetIt();
 setInterval(tweetIt,1000*60*30);
 
 function tweetIt(){
-	var cmd ='processing-java --sketch="c:/Users/PC/Documents/GitHub/my-bot/blabla" --run';
+	var cmd ='processing-java --sketch="https://github.com/emocanmimocan/my-bot/tree/master/blabla" --run';
 	
 	exec(cmd,processing);
 	
 	function processing(){
-		let filename = 'c:/Users/PC/Documents/GitHub/my-bot/blabla/output.png';
+		let filename = 'https://github.com/emocanmimocan/my-bot/tree/master/blabla/output.png';
 		let params = {
 			encoding: 'base64'
 		}
