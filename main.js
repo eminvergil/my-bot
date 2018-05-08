@@ -19,7 +19,7 @@ function tweetIt(){
 	exec(cmd,processing);
 	
 	function processing(){
-		let filename = 'https://github.com/emocanmimocan/my-bot/blob/master/blabla/output.png';
+		let filename = "https://github.com/emocanmimocan/my-bot/blob/master/blabla/output.png";
 		let params = {
 			encoding: 'base64'
 		}
