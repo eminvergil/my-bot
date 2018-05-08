@@ -1,0 +1,28 @@
+{
+  "name": "first_bot",
+  "version": "1.0.0",
+  "description": "first bot making",
+  "main": "main.js",
+  "scripts": {
+    "start":"node main.js" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emocanmimocan/my-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "first",
+    "making"
+  ],
+  "author": "emin vergil",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/emocanmimocan/my-bot/issues"
+  },
+  "homepage": "https://github.com/emocanmimocan/my-bot#readme",
+  "dependencies": {
+    "twit": "2.2.9"
+  }
+}
